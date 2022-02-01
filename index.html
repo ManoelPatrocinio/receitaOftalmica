@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Receita Oftálmica</title>
+</head>
+<body>
+    <header><h1 class="title">Recomendação de Lente </h1></header>
+    <main>
+        <form  action="">
+            <div class="input-group">
+                <label for="ged">Grau Esférico do Olho Direito</label>
+                <input type="number" placeholder="Insira seu Grau Esférico do olho direito"  max="0" min="-15" id="ged" name="ged">
+            </div>
+            <div class="input-group">
+                <label for="gee">Grau Esférico do Olho Esquerdo</label>
+                <input type="number" placeholder="Insira seu Grau Esférico do olho Esquerdo" id="gee"  max="0" min="-15">
+            </div>
+            <div class="input-group">
+                <label for="gcd">Grau Cilíndrico do Olho Direito</label>
+                <input type="number" placeholder="Insira seu Grau Cilíndrico do olho direito" id="gcd"  max="0" min="-6">
+            </div>
+            <div class="input-group">
+                <label for="gce">Grau Cilíndrico do Olho Esquerdo</label>
+                <input type="number" placeholder="Insira seu Grau Cilíndrico do olho Esquerdo" id="gce"  max="0" min="-6">
+            </div>
+        </form>
+        <button id="btn_verificar">Verificar</button>
+        <div id="resultado"> <h3> </h3></div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

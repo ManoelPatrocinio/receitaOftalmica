@@ -1,0 +1,60 @@
+*{
+    margin: 01;
+    padding:0;
+    list-style: none;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+
+}
+body{
+    background: #fefefe;
+}
+
+header,main,label,input,#resultado{
+    width: 100%;
+}
+.title{
+    font-size: 1.3rem;
+    color: #a9a5a5;
+}
+
+form{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    width: 40%;
+    margin: 0 auto 2% auto;
+    
+}
+
+
+label{
+    font-size: 1.2rem;
+    color: #000400;
+    margin: 0 0 5px 0;
+}
+input{
+    padding: 5px 6px;
+}
+
+#btn_verificar{
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #17a917;
+    width: 7rem;
+    height: 2rem;
+}
+
+#resultado {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #17a917;
+}
