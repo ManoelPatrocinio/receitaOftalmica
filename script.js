@@ -16,7 +16,7 @@ function calcular() {
             resultado = "Lente Primer"
             
         } else {
-        resultado = "nao"
+        resultado = "Sem Resultado"
             
         }
     }else if (grauCilindrico1  >= -5 && grauCilindrico2  >= -5 && grauCilindrico1  <= -1 && grauCilindrico2  <= -1 ) {
@@ -24,11 +24,11 @@ function calcular() {
             resultado = "Lente Vision"
             
         } else {
-        resultado = "nao"
+        resultado = "Sem Resultado"
             
         }
     } else {
-        resultado = ""
+        resultado = "Sem Resultado"
     }
 
     var DivResultado = document.getElementById("resultado")
